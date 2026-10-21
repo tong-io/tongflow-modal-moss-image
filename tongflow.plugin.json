@@ -1,0 +1,25 @@
+{
+    "plugin": {
+        "name": "MOSS-Image",
+        "description": "Text-to-image with OpenMOSS MOSS-Image (5B DiT, SFT weights): strong Chinese/English text rendering, long prompts and JSON layout prompts.",
+        "icon": "/plugins/tongflow-modal-moss-image.svg"
+    },
+    "env": [
+        {
+            "key": "MODAL_TOKEN_ID",
+            "required": true,
+            "description": "Modal token id",
+            "url": "https://modal.com/settings/tokens"
+        },
+        {
+            "key": "MODAL_TOKEN_SECRET",
+            "required": true,
+            "description": "Modal token secret (paired with MODAL_TOKEN_ID)"
+        },
+        {
+            "key": "TONGFLOW_MODAL_CALL_TIMEOUT_S",
+            "default": "2400",
+            "description": "Max seconds to wait for a Modal call"
+        }
+    ]
+}
