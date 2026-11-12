@@ -84,7 +84,7 @@ image = (
         "safetensors==0.8.0",
         "pillow==12.1.1",
         "huggingface_hub>=1.5.0,<2.0",
-        "tongflow==0.3.4", "fastapi[standard]",
+        "tongflow==1.0.0", "fastapi[standard]",
     )
 )
 
